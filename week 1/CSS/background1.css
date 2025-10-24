@@ -1,0 +1,26 @@
+div{
+    background-color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    color: azure;
+    background-image: url(../files/css-assignment-5-8.png);
+    width: 370px;
+    height: 370px;
+    margin: 20px;
+}
+.d1{
+    background-repeat: no-repeat;
+}
+.d2{
+    background-position: 100% 0;
+    background-repeat: repeat-y;
+}
+.d3{
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+}
+.d4{
+    background-repeat: repeat;
+}

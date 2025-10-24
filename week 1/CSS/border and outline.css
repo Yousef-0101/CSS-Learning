@@ -1,0 +1,19 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+    display: inline-block;
+    outline: 5px solid #000;
+    padding: 20px;
+    margin: 10px;
+}
+.div1{
+    border: 5px solid #F00;
+}
+.div2{
+    border: 5px solid;
+    border-color: #00F #080;
+}
+.div3{
+    border: 5px dashed;
+    border-color: #F00 #080 #00F #FF0;
+}

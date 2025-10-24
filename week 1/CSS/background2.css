@@ -1,0 +1,28 @@
+div{
+    background-color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    color: azure;
+    background-image: url(../files/css-assignment-5-8.png);
+    width: 370px;
+    height: 370px;
+    margin: 20px;
+    background-repeat: no-repeat;
+}
+.d1{
+    background-size: 80%;
+}
+.d2{
+    background-size: 80% 100%;
+    background-position: right;
+}
+.d3{
+    background-size: 100% 80%;
+    background-position: 0 100%;
+}
+.d4{
+    background-size: 50%;
+    background-position: 100% 100%;
+}
