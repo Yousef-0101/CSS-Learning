@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+html {
+    font-size: 20px;
+    font-family: cairo, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+}

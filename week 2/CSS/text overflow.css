@@ -1,0 +1,12 @@
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    width: 360px;
+    margin: 20px;
+    padding: 20px;
+}
+.third {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

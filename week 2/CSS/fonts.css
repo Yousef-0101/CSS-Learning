@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+div {
+    text-align: center;
+}
+
+.one {
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.two {
+    font-family: cairo, sans-serif;
+    font-weight: 700;
+}
+
+.three {
+    font-family: Jomhuria, sans-serif;
+    font-weight: 400;
+}
