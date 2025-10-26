@@ -1,0 +1,37 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parent {
+    background-color: #ededed;
+    overflow: hidden;
+    width: 600px;
+}
+
+.parent div {
+    text-align: center;
+    background-color: #dddddd;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.full {
+    width: calc(100% - 30px);
+}
+
+.third {
+    float: left;
+    width: calc( ( 100% - 60px ) / 3);
+}
+
+.half {
+    float: left;
+    width: calc( ( 100% - 45px ) / 2);
+}
+
+.forth {
+    float: left;
+    width: calc( ( 100% - 75px ) / 4);
+    margin-bottom: 10px;
+}
