@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: #ededed;
+    width: 300px;
+    height: 60px;
+    margin: 10px calc((100% - 300px)/2);
+    text-align: center;
+    line-height: 60px;
+}
+
+div:empty {
+    background-color: red;
+}
