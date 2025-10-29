@@ -1,0 +1,18 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    background-color: #eeeeee;
+    color: #ff5722;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 5px 0 #ff5722, -5px 0 #03a9f4;
+}
