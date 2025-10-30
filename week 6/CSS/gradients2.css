@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    background-color: #eeeeee;
+    caret-color: #f44336;
+    width: 600px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+}
+
+div {
+    position: relative;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 12px;
+    width: 600px;
+    height: 2px;
+    background: linear-gradient(to right, #f44336 50%, #009688 50%, #009688);
+}
