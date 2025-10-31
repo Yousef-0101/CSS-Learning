@@ -1,0 +1,41 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    --col: #009688;
+    --tex: white;
+    --deg: 10deg;
+}
+
+h1 {
+    background-color: var(--col);
+    color: var(--tex);
+    width: 150px;
+    margin: 4em auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    background-color: var(--col);
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    transform: skewX(20deg);
+}
+
+h1::after {
+    content: "";
+    background-color: var(--col);
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    transform: skewX(20deg);
+}

@@ -1,0 +1,39 @@
+* {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #eeeeee;
+    color: #03a9f4;
+    border: 1px solid #dddddd;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div::before {
+    content: "";
+    background-color: #03a9f4;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: -1;
+    transform: rotate(-5deg);
+}
+
+div::after {
+    content: "";
+    background-color: #e91e63;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    z-index: -2;
+    transform: rotate(5deg);
+}
